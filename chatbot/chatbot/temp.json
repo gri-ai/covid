@@ -1,0 +1,110 @@
+query_result {
+    query_text: "what is communication system"
+    action: "AskPill"
+    parameters {
+      fields {
+        key: "Pill"
+        value {
+          list_value {
+            values {
+              string_value: "communication system"
+            }
+          }
+        }
+      }
+      fields {
+        key: "TypeOfQuestion"
+        value {
+          string_value: ""
+        }
+      }
+      fields {
+        key: "Weakness"
+        value {
+          string_value: ""
+        }
+      }
+      fields {
+        key: "What"
+        value {
+          string_value: "What"
+        }
+      }
+    }
+    all_required_params_present: true
+    fulfillment_text: "Here is the response! communication system"
+    fulfillment_messages {
+      text {
+        text: "Here is the response! communication system"
+      }
+    }
+    fulfillment_messages {
+      text {
+        text: ""
+      }
+    }
+    output_contexts {
+      name: "projects/newagent-a236a/agent/sessions/c84a6e29-ec4c-43d3-bf3d-50bd77857090/contexts/pill"
+      lifespan_count: 1
+      parameters {
+        fields {
+          key: "Pill"
+          value {
+            list_value {
+              values {
+                string_value: "communication system"
+              }
+            }
+          }
+        }
+        fields {
+          key: "Pill.original"
+          value {
+            string_value: "communication system"
+          }
+        }
+        fields {
+          key: "TypeOfQuestion"
+          value {
+            string_value: ""
+          }
+        }
+        fields {
+          key: "TypeOfQuestion.original"
+          value {
+            string_value: ""
+          }
+        }
+        fields {
+          key: "Weakness"
+          value {
+            string_value: ""
+          }
+        }
+        fields {
+          key: "Weakness.original"
+          value {
+            string_value: ""
+          }
+        }
+        fields {
+          key: "What"
+          value {
+            string_value: "What"
+          }
+        }
+        fields {
+          key: "What.original"
+          value {
+            string_value: "what"
+          }
+        }
+      }
+    }
+    intent {
+      name: "projects/newagent-a236a/agent/intents/31b8dd66-ceeb-4241-b436-93ed8e74feb2"
+      display_name: "AskPill"
+    }
+    intent_detection_confidence: 1.0
+    language_code: "en"
+  }

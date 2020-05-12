@@ -1,0 +1,22 @@
+version: "3"
+services:
+  spbot:
+    build:
+      context: .
+    command: "scripts/runserver"
+    volumes:
+      - .:/code
+    ports:
+      - "8092:8092"
+    links:
+      - postgresql
+  postgresql:
+    image: postgres:9.6
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - ./db-data:/data
+      - ./10-init.sql:/docker-entrypoint-initdb.d/10-init.sql
+      - .:/code/

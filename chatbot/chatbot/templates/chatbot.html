@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block js %}
+<script type="text/javascript">
+    var askbot = function() {
+        var message = $('#message').val();
+        $('#message').val(''); //clear
+        chat = $('#chat');
+        chat.append('\n');
+        chat.append('You: ');
+        chat.append(message);
+        chat.append('\n*****************************************************************\n');
+        var csrf_token = $("input[name='csrfmiddlewaretoken']").val();
+
+        $.post('/dflow/', data={'csrfmiddlewaretoken':csrf_token, 'message':message})
+            .done(function(data){
+                chat.append(data.response);
+                if(chat.length)
+                    chat.scrollTop(chat[0].scrollHeight - chat.height());
+            });
+
+        if(chat.length)
+            chat.scrollTop(chat[0].scrollHeight - chat.height());
+        return false;
+    }
+</script>
+
+{% endblock %}
+
+{% block content %}
+<form method="POST" onsubmit="return askbot()">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="chat">...</label>
+        <textarea class="form-control" id="chat" rows="10" readonly="readonly"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="message">Your message</label>
+        <input type="text" class="form-control" id="message" placeholder="Please enter your message here!">
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
+{% endblock %}

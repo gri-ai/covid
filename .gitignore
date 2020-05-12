@@ -1,0 +1,6 @@
+**/.vscode/*/**
+**/venv/*/**
+**/__pycache__/*/**
+**/*/*.pyc
+**/covo-d-dialog-flow.json
+**/.DS_Store

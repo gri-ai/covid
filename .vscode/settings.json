@@ -1,0 +1,11 @@
+{
+  "python.pythonPath": "venv/bin/python",
+  "python.jediEnabled": false,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/venv/*/**": true,
+    "**/__pycache__/*/**": true,
+    "**/*/*.pyc": true
+  }
+}

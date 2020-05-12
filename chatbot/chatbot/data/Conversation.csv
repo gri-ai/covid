@@ -1,0 +1,10 @@
+Intent,Entity-type,Message,Expected-parameters,Exception-message
+1,,Sorry to hear that. Let me see how I can help you. How long has the fever >38.5 been present (Please enter 'no fever' if not existing condition),@number,Please enter numeric value
+2,,Does your child have loose stools (Diarrhea) during this illness?,@bool,Indicate if symptom exits
+3,,Does your child have or had Abdominal Pain during this illness?,@bool,Indicate if symptom exits
+4,,Does your child have a rash which is all over the body?,@bool,Indicate if symptom exits
+5,,Does the child have Itchy Rash?,@bool,Indicate if symptom exits
+6,,Does the child have swollen hands and legs?,@bool,Indicate if symptom exits
+7,,Does the child have Red eyes with or without sticky secretion?,@bool,Indicate if symptom exits
+8,,Is the child very tired and more sleepy than usual?,@bool,Indicate if symptom exits
+9,,Is the child confused or has been confused during this illness?,@bool,Indicate if symptom exits

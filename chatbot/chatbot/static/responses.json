@@ -1,0 +1,144 @@
+{
+    "RACI": {
+        "default": {
+            "Text": "The RACI Model is a useful tool for establishing what responsibilities the different stakeholders will have during the change process."
+        },
+        "aspects": {
+            "Text": "Responsible – those responsible for implementing a task on time\n\t\tAccountable – responsible for signing off a task once complete\n\t\tConsulted – someone whose opinion is required\n\t\tInformed – stakeholders that must be kept up to date on progress and any decisions"
+        },
+        "responsible": {
+            "Text": "Responsible – those responsible for implementing a task on time"
+        },
+        "accountable": {
+            "Text": "Accountable – responsible for signing off a task once complete"
+        },
+        "consulted": {
+            "Text": "Consulted – someone whose opinion is required"
+        },
+        "informed": {
+            "Text": "stakeholders that must be kept up to date on progress and any decisions"
+        },
+        "more": {
+            "Text": "There are several change management models, that when used effectively, can support you in determining how and who the change will affect and any risks involved. Watch the next course on Change Management Models to learn more."
+        }
+
+    },
+    "AskPill": {
+        "default": {
+            "Text": "No resource found {}"
+        },
+        "body language": {
+            "What": {
+                "Text": "We currently have a whole section on body language which \n\t\tconsists of two videos, four docs, and 5 external links. \n\n\t\tWhich source would you like to use to boost your knowledge?",
+                "need": { 
+                    "Text": "My resource tell me that you need to consider body language, \n\t\twould you like to look at body language resource or \n\t\twe can look a study by Professor Albert Mehrabian's on ‘Communication Model’?" 
+                }
+            }
+        },
+        "communication models": {
+            "Text": "There are three key communication models which are Shannon/Weaver \n\t\tcommunication model, Berlo communication model, and \n\t\tSchramn communication model. \n\n\t\tWhich one would you like to look at?"
+        },
+        "communication": {
+            "struggle": {
+                "Text": "Is there a specific situation this happening such as: \n\t\tDuring presentations\n\t\tWhen talking to clients\n\t\tMotivating a team\n\t\tSuggest general communication"
+            }
+        },
+        "communication channels": {
+            "What": {
+                "Text": "The following link will take you to a pill where you can learn about the three\n\t\tcommunication channels\n\t\ta. Link 1\n\t\tb. Link 2\n\t\tc. Link 3"
+            }
+        },
+        "formal communication model": {
+            "Text": "Here are some resource on formal communication model:\n\t\tHow to negotiate effectively\n\t\tHow to give pitch presentation\n\t\tNegotiating\n\t\tMaintain customer focus"
+        },
+        "Berlo": {
+            "What": {
+                "benefits": {
+                    "Text": "Please look at the following links to understand the \n\t\tbenefits of the Berlo Communication Model.\n\t\tLink 1\n\t\tLink 2\n\t\tLink 3\n\t\tWould you also like me to look up the benefits to the other communication models?"
+                }
+            },
+            "benefits": {
+                "Text": "Please look at the following links to understand the \n\t\tbenefits of the Berlo Communication Model.\n\t\tLink 1\n\t\tLink 2\n\t\tLink 3\n\t\tWould you also like me to look up the benefits to the other communication models?"
+            }
+
+        },
+        "communication channel": {
+            "What": {
+                "Text": "The following link will explain what a communication channel is, \n\t\tWould you like me to run a search to find examples of communication channels?"
+            }
+        },
+        "communication system": {
+            "Text": "One communication system you need to understand is the Wheel communication system",
+            "What": {
+                "types": {
+                    "Text": "One type of communication system is ‘top down’. \n\t\tWould you like to learn more or would you like me to find another type"
+                }
+            }
+        },
+        "wheel": {
+            "Text": "Here are all my resources on ‘wheel’ communication system\n\t\tLink 1\n\t\tLink 2\n\t\tLink 3"
+        }
+    },
+    "ShowPill": {
+        "default": {
+            "Text": "No resource found {}"
+        },
+        "body language": {
+            "What": {
+                "Text": "Here are the links to all the videos we have on body language:\n\t\tVideo 1\n\t\tVideo 2\n\t\tVideo 3",
+                "need": {
+                    "Text": "Here is a list of content on body language"
+                }
+            }
+        },
+        "Berlo": {
+            "Text": "Here is all the information we have on Berlo communication model, \n\t\tWhen you are ready we can move on to the next one."
+        },
+        "formal communication model": {
+            "Text": "Here are some resource on formal communication model:\n\t\tHow to negotiate effectively\n\t\tHow to give pitch presentation\n\t\tNegotiating\n\t\tMaintain customer focus",
+            "struggle": {
+                "Text": "Here are some resource on formal communication model"
+            }
+        },
+        "communication channels": {
+            "struggle": {
+                "Text": "Here are some videos related to communicating with clients:\n\t\tHow to negotiate effectively\n\t\tHow to give pitch presentation\n\t\tNegotiating\n\t\tMaintain customer focus"
+            },
+            "What": {
+                "Text": "Here are the three regularly used communication channels:\n\t\tLink 1\n\t\tLink 2\n\t\tLink 3"
+            }
+        },
+        "wheel": {
+            "Text": "Here are all my resources on ‘wheel’ communication system\n\t\tLink 1\n\t\tLink 2\n\t\tLink 3"
+        },
+        "top down": {
+            "What": {
+                "types": {
+                    "Text": "Following links are related to the ‘top down’ approach\n\t\tLink 1\n\t\tLink 2\n\t\tLink 3"
+                }
+            }
+        }
+    },
+    "ComparePill": {
+        "formal": {
+            "informal communication model": {
+                "Text": "Would you like to look at formal or informal communication first"
+            }
+        }
+    },
+    "Yes": {
+        "default": {
+            "Text": "Nice let's take a look at {}"
+        },
+        "Berlo": {
+            "What": {
+                "benefits": {
+                    "Text": "Here are the benefits for the other two communication models\n\t\tLink 1\n\t\tLink 2\n\t\tLink 3"
+                }
+            }    
+        }
+    },
+    "No": {
+        "Text": ["Ok!", "That's fine.", "Thank you!", "That's Alright!"]
+    }
+}

@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+# Apache gets grumpy about PID files pre-existing
+rm -f /usr/local/apache2/logs/httpd.pid
+
+echo "Apache - starting"
+apache2ctl -DFOREGROUND
+echo "Apache - running"
+
+#exec httpd -DFOREGROUND
