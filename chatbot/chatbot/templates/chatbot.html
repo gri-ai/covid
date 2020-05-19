@@ -5,10 +5,10 @@
         var message = $('#message').val();
         $('#message').val(''); //clear
         chat = $('#chat');
-        chat.append('\n');
+        chat.append('\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄\n');
         chat.append('You: ');
         chat.append(message);
-        chat.append('\n*****************************************************************\n');
+        chat.append('\n░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n');
         var csrf_token = $("input[name='csrfmiddlewaretoken']").val();
 
         $.post('/dflow/', data={'csrfmiddlewaretoken':csrf_token, 'message':message})

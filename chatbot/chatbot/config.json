@@ -1,17 +1,17 @@
 {
     "DEFAULT": {
-      "APP_ID": "2186756478001460",
-      "SERVER_ACCESS_TOKEN": "5NGETXO3S6KGTFXZCFPG2QOION5QXXCW"
+      "APP_ID": "",
+      "SERVER_ACCESS_TOKEN": ""
     },
     "DIALOGFLOW": {
-      "PROJECT_ID": "covo-d"
+      "PROJECT_ID": ""
     },
     "TEST": {
-        "APP_ID": "2186756478001460",
-        "SERVER_ACCESS_TOKEN": "5NGETXO3S6KGTFXZCFPG2QOION5QXXCW"
+        "APP_ID": "",
+        "SERVER_ACCESS_TOKEN": ""
     },
     "CI": {
-        "APP_ID": "2186756478001460",
-        "SERVER_ACCESS_TOKEN": "5NGETXO3S6KGTFXZCFPG2QOION5QXXCW"
+        "APP_ID": "",
+        "SERVER_ACCESS_TOKEN": ""
     }
   }
