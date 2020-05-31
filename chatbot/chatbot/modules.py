@@ -48,10 +48,6 @@ class symptom():
 
         # if parameter is obtained so add the new parameter to session parameters.
         kwargs = dict(response.query_result.parameters)
-        print("________________kwargs____________")
-        print(kwargs)
-        print(response.query_result.parameters)
-        print("________________kwargs____________")
         session.create_intent_with_parameters(session_id, symptom_index, **kwargs)
 
         # get next question 

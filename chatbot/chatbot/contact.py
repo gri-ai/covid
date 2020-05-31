@@ -64,7 +64,6 @@ class contact:
             u.agent_ref = agent_ref
             u.save()
         except Exception as e:
-            print(e)
             return -1
 
         return u.id
@@ -97,7 +96,6 @@ class contact:
         #         Another back-end reference
         u = self.get_contact_by_crm_ref(crm_ref)
         if u is None:
-            print('Contact not found')
             return 0
 
         try:
@@ -107,7 +105,6 @@ class contact:
             u.agent_ref = agent_ref
             u.save()
         except Exception as e:
-            print(e)
             return -1
 
         return u.id
@@ -142,7 +139,6 @@ class contact:
         #         Another back-end reference
         u = self.get_contact_by_id(id)
         if u is None:
-            print('Contact not found')
             return 0
 
         try:
@@ -153,7 +149,6 @@ class contact:
             u.agent_ref = agent_ref
             u.save()
         except Exception as e:
-            print(e)
             return -1
 
         return u.id
@@ -164,7 +159,6 @@ class contact:
 
         cntx = self.get_user_session_context(session_id)
         if cntx is None:
-            print('No active context')
             return 1
 
         cntx.date_dismissed = datetime.datetime.now()

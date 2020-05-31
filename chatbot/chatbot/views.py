@@ -38,7 +38,6 @@ def create_session(session_id = None):
 
 
 def clear_session(session_id):
-    print("session cleared")
     session.set_last_touch(session_id, datetime.now())
 
 

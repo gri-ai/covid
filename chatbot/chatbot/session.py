@@ -24,7 +24,6 @@ class session():
             return session_id
         except Exception as e:
             #log e
-            print(e)
             raise
     
     @staticmethod

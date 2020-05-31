@@ -10,14 +10,12 @@ class AutoLogout:
       # One-time configuration and initialization.
 
   def __call__(self, request):
-    print('call')
 
     try:
 
       if datetime.now() - request.session['last_touch'] > timedelta( 0, settings.AUTO_LOGOUT_DELAY * 60, 0):
         del request.session['last_touch']
         del request.session['has_session']
-        print("Logout")
 
     except Exception as e:
       pass
