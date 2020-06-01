@@ -1,10 +1,10 @@
 {
     "DEFAULT": {
-      "APP_ID": "",
+      "APP_ID": "covo-d",
       "SERVER_ACCESS_TOKEN": ""
     },
     "DIALOGFLOW": {
-      "PROJECT_ID": ""
+      "PROJECT_ID": "covo-d"
     },
     "TEST": {
         "APP_ID": "",
