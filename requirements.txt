@@ -2,7 +2,7 @@ astroid==2.0.4
 cachetools==3.0.0
 certifi==2018.10.15
 chardet==3.0.4
-Django==2.2.10
+Django==2.2.13
 dialogflow==1.0.0
 google-api-core==1.17.0
 google-auth==1.16.0
